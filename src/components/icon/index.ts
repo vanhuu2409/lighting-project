@@ -1,0 +1,9 @@
+export { default as IconFacebook } from "./IconFacebook";
+export { default as IconInstagram } from "./IconInstagram";
+export { default as IconLinkedin } from "./IconLinkedin";
+export { default as IconMail } from "./IconMail";
+export { default as IconSend } from "./IconSend";
+export { default as IconPhone } from "./IconPhone";
+export { default as IconWhatsapp } from "./IconWhatsapp";
+export { default as IconLocations } from "./IconLocations";
+export { default as IconBoat } from "./IconBoat";
