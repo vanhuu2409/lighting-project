@@ -864,7 +864,6 @@ export default function HomePage() {
                 <p>• Responsible Travel</p>
                 <p>• Tourism Cares</p>
                 <p>• World Wildlife Fund</p>
-                <p>• World Wildlife Fund</p>
               </div>
             </div>
           </div>
