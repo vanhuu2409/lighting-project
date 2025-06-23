@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   getRefreshToken,
   getSession,
@@ -182,4 +183,3 @@ axiosInstance.interceptors.response.use(
 );
 
 export { axiosInstance, axiosExtend };
-
