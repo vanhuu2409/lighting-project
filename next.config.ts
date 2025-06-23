@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   distDir: "dist",
   // trailingSlash: true,
   eslint: {
-    ignoreDuringBuilds: true,
+    // ignoreDuringBuilds: true,
     dirs: ["src"],
   },
   env: {

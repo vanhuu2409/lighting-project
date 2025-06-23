@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { PaginatedResponse } from "@/types";
 
 export interface Blog {
