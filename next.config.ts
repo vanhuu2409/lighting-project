@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
+  distDir: "dist",
   // trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
@@ -11,6 +12,7 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
   },
   images: {
+    unoptimized: true,
     domains: ["res.cloudinary.com", "images.unsplash.com"],
   },
 };
