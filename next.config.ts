@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // output: "export",     // Comment để dùng server mode
-  // distDir: "dist",      // Comment để dùng .next default
+  output: "export", // Comment để dùng server mode
+  distDir: "dist", // Comment để dùng .next default
   // trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
