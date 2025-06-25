@@ -1,12 +1,7 @@
-export { default as TravelBlog } from "./TravelBlog";
-export { default as AffordableCruises } from "./AffordableCruises";
-export { default as CruiseItineraries } from "./CruiseItineraries";
-export { default as AdvisorTeamSection } from "./AdvisorTeamSection";
+export { default as AboutSection } from "./AboutSection";
+export { default as EventSection } from "./EventSection";
 export { default as HeroSection } from "./HeroSection";
-export { default as ExperienceSection } from "./ExperienceSection";
-export { default as CruisePackagesSection } from "./CruisePackagesSection";
-export { default as DiscoverSliderSection } from "./DiscoverSliderSection";
-export { default as TestimonialsSection } from "./TestimonialsSection";
-export { default as NewsletterSection } from "./NewsletterSection";
-export { default as AdventureSection } from "./AdventureSection";
 export { default as PartnerSection } from "./PartnerSection";
+export { default as TestimonialSection } from "./TestimonialSection";
+export { default as TicketSection } from "./TicketSection";
+export { default as CTASection } from "./CTASection";

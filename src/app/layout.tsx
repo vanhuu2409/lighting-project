@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://thapsang.jcidanang.site"),
+  metadataBase: new URL("https://thapsang.site"),
   alternates: {
     canonical: "/",
   },
@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     title: "Thắp Sáng - JCI Danang",
     description:
       "Thắp Sáng là dự án trực thuộc JCI Danang, hướng đến cải thiện chất lượng cuộc sống cho người dân vùng khó khăn, thiếu điều kiện ánh sáng.",
-    url: "https://thapsang.jcidanang.site",
+    url: "https://thapsang.site",
     siteName: "Thắp Sáng - JCI Danang",
     images: [
       {
-        url: "/api/placeholder/1200/630",
+        url: "/images/banner.png",
         width: 1200,
         height: 630,
         alt: "Thắp Sáng - JCI Danang",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Thắp Sáng - JCI Danang",
     description:
       "Thắp Sáng là dự án trực thuộc JCI Danang, hướng đến cải thiện chất lượng cuộc sống cho người dân vùng khó khăn, thiếu điều kiện ánh sáng.",
-    images: ["/api/placeholder/1200/630"],
+    images: ["/images/banner.png"],
     creator: "@halongbaytours",
   },
   robots: {
@@ -71,8 +71,8 @@ export const metadata: Metadata = {
     "business:contact_data:region": "Danang",
     "business:contact_data:country_name": "Vietnam",
     "business:contact_data:phone_number": "+84 24 38364212",
-    "business:contact_data:email": "info@jcidanang.site",
-    "business:contact_data:website": "https://jcidanang.site",
+    "business:contact_data:email": "duanthapsang@gmail.com",
+    "business:contact_data:website": "https://thapsang.site",
   },
 };
 
@@ -82,7 +82,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en' className='scroll-smooth'>
       <head>
         {/* Structured Data for Organization */}
         <script
@@ -94,11 +94,11 @@ export default function RootLayout({
               name: "Thắp Sáng - JCI Danang",
               description:
                 "Thắp Sáng là dự án trực thuộc JCI Danang, hướng đến cải thiện chất lượng cuộc sống cho người dân vùng khó khăn, thiếu điều kiện ánh sáng.",
-              url: "https://thapsang.jcidanang.site",
-              logo: "https://thapsang.jcidanang.site/logo.png",
-              image: "https://thapsang.jcidanang.site/api/placeholder/1200/630",
+              url: "https://thapsang.site",
+              logo: "https://thapsang.site/logo.png",
+              image: "https://thapsang.site/images/banner.png",
               telephone: "+84 24 38364212",
-              email: "info@jcidanang.site",
+              email: "duanthapsang@gmail.com",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "123 Nguyen Van Linh Street",

@@ -13,6 +13,7 @@ const config: Config = {
         script: ["Dancing Script", "cursive"],
       },
       colors: {
+        mainColor: "#FDC619",
         primary: {
           50: "#eff6ff",
           100: "#dbeafe",
