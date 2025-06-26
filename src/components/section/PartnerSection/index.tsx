@@ -156,7 +156,7 @@ export const partners = [
       detail: "40.000.000",
     },
     package: "diamond",
-    logo: "/images/partners/gein-academy.jpg",
+    logo: "/images/partners/gein-academy.png",
     representative: {
       title: "Bà",
       name: "Phương Nguyễn Silk",
@@ -361,19 +361,19 @@ const PartnerSection = () => {
           autoFill
         >
           <div className='flex items-center space-x-16 mx-8'>
-            <div className='flex gap-16 items-center filter grayscale hover:grayscale-0 transition-all duration-300'>
+            <div className='flex gap-16 items-center lg:filter lg:grayscale hover:grayscale-0 transition-all duration-300'>
               <Flame className='size-6 text-mainColor' />
             </div>
-            <div className='flex gap-16 items-center filter grayscale hover:grayscale-0 transition-all duration-300'>
+            <div className='flex gap-16 items-center lg:filter lg:grayscale hover:grayscale-0 transition-all duration-300'>
               <span className='text-xl font-bold text-mainColor'>
                 Nhà tài trợ dự án Thắp Sáng
               </span>
             </div>
 
-            <div className='flex gap-16 items-center filter grayscale hover:grayscale-0 transition-all duration-300'>
+            <div className='flex gap-16 items-center lg:filter lg:grayscale hover:grayscale-0 transition-all duration-300'>
               <Flame className='size-6 text-mainColor' />
             </div>
-            <div className='flex gap-16 items-center filter grayscale hover:grayscale-0 transition-all duration-300'>
+            <div className='flex gap-16 items-center lg:filter lg:grayscale hover:grayscale-0 transition-all duration-300'>
               <span className='text-xl font-bold text-mainColor text-outline-thin'>
                 Cảm ơn các đối tác
               </span>

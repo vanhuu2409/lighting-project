@@ -26,9 +26,9 @@ const CTASection = () => {
           className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'
         >
           {/* Facebook Fanpage */}
-          <Card className='bg-white/10 backdrop-blur-sm shadow-lg hover:bg-white/20 transition-all duration-300'>
+          <Card className='bg-white/20 backdrop-blur-md rounded-2xl p-8 text-center hover:bg-white/25 transition-all duration-300 border border-white/20 shadow-lg hover:shadow-xl'>
             <CardContent className='p-8 text-center'>
-              <div className='w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6'>
+              <div className='w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg'>
                 <Facebook className='w-8 h-8 text-white' />
               </div>
               <h3 className='text-2xl font-bold text-white mb-4'>
@@ -50,9 +50,9 @@ const CTASection = () => {
           </Card>
 
           {/* Volunteer Registration */}
-          <Card className='bg-white/10 backdrop-blur-sm shadow-lg hover:bg-white/20 transition-all duration-300'>
+          <Card className='bg-white/20 backdrop-blur-md rounded-2xl p-8 text-center hover:bg-white/25 transition-all duration-300 border border-white/20 shadow-lg hover:shadow-xl'>
             <CardContent className='p-8 text-center'>
-              <div className='w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6'>
+              <div className='w-20 h-20 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg'>
                 <Users className='w-8 h-8 text-white' />
               </div>
               <h3 className='text-2xl font-bold text-white mb-4'>
@@ -77,9 +77,9 @@ const CTASection = () => {
           </Card>
 
           {/* Contact Email */}
-          <Card className='bg-white/10 backdrop-blur-sm shadow-lg hover:bg-white/20 transition-all duration-300'>
+          <Card className='bg-white/20 backdrop-blur-md rounded-2xl p-8 text-center hover:bg-white/25 transition-all duration-300 border border-white/20 shadow-lg hover:shadow-xl'>
             <CardContent className='p-8 text-center'>
-              <div className='w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6'>
+              <div className='w-20 h-20 bg-gradient-to-br from-red-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg'>
                 <Mail className='w-8 h-8 text-white' />
               </div>
               <h3 className='text-2xl font-bold text-white mb-4'>

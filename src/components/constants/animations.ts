@@ -49,24 +49,36 @@ export const projects = [
 
 export const demoExperiences = [
   {
-    title: "On The Radio",
-    image:
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600&h=800&fit=crop&crop=center",
+    title: "The Light Concert",
+    href: "https://thelightconcert.jcidanang.com/",
+    location: "76 Thái Phiên, Phước Ninh, Hải Châu, Đà Nẵng",
+    time: "18:30 - 22:30",
+    date: "2025-07-17",
+    image: "/images/home/upcoming/the-light-concert.png",
     description:
-      "Đêm nhạc tại On The Radio với các nghệ sĩ indie địa phương. Không gian ấm cúng, âm nhạc sống động cùng mục đích ý nghĩa.",
+      "The Light Concert với các nghệ sĩ indie địa phương. Không gian ấm cúng, âm nhạc sống động cùng mục đích ý nghĩa.",
+    isComingSoon: false,
   },
   {
     title: "Phòng Trà Hương Sen",
-    image:
-      "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600&h=800&fit=crop&crop=center",
+    href: "https://thelightconcert.jcidanang.com/",
+    location: "Đà Nẵng",
+    time: "19:00 - 22:00",
+    date: "2025-07-01",
+    image: "/images/home/upcoming/the-light-concert.png",
     description:
       "Buổi tối thơ ca và trà đạo từ thiện. Thưởng thức trà ngon, lắng nghe những vần thơ hay và cùng góp phần lan tỏa yêu thương.",
+    isComingSoon: true,
   },
   {
     title: "The Coffee Bean",
-    image:
-      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=600&h=800&fit=crop&crop=center",
+    href: "https://thelightconcert.jcidanang.com/",
+    location: "Đà Nẵng",
+    time: "19:00 - 22:00",
+    date: "2025-07-01",
+    image: "/images/home/upcoming/the-light-concert.png",
     description:
       "Acoustic night tại The Coffee Bean với các ca sĩ trẻ Đà Nẵng. Một đêm âm nhạc đầy cảm xúc vì cộng đồng vùng cao.",
+    isComingSoon: true,
   },
 ];

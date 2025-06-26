@@ -12,7 +12,7 @@ const HoverText = ({
   text,
   classTextNormal,
   classTextHover,
-  classContainer,
+  classContainer = "",
 }: HoverTextProps) => {
   const [hovered, setHovered] = useState(false);
 
@@ -26,7 +26,7 @@ const HoverText = ({
 
   return (
     <div
-      className={`relative w-full h-[18.75px] overflow-hidden cursor-pointer flex items-center justify-center ${classContainer}`}
+      className={`relative text-sm w-full h-[18.75px] overflow-hidden cursor-pointer flex items-center justify-center ${classContainer}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -35,14 +35,18 @@ const HoverText = ({
           hovered ? "-translate-y-full" : "translate-y-0"
         }`}
       >
-        <span className={cn("text-white", classTextNormal)}>{text}</span>
+        <span className={cn("text-white inline-block", classTextNormal)}>
+          {text}
+        </span>
       </div>
       <div
         className={`absolute w-full transition-transform duration-300 ${
           hovered ? "translate-y-0" : "translate-y-full"
         }`}
       >
-        <span className={cn("text-neutral-800", classTextHover)}>{text}</span>
+        <span className={cn("text-neutral-800 inline-block", classTextHover)}>
+          {text}
+        </span>
       </div>
     </div>
   );

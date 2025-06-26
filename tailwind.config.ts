@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         script: ["Dancing Script", "cursive"],
+        "great-vibes": ["Great Vibes", "cursive"],
       },
       colors: {
         mainColor: "#FDC619",

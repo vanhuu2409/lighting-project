@@ -23,8 +23,8 @@ const AboutSection = () => {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className='space-y-4 flex-1'
           >
-            <h1 className='text-5xl md:text-8xl font-bold leading-tight'>
-              THẮP SÁNG
+            <h1 className='text-7xl md:text-8xl font-bold font-great-vibes'>
+              Thắp Sáng
             </h1>
             <p className='leading-snug tracking-tight text-base md:text-lg text-justify'>
               là một dự án trực thuộc <b>JCI Đà Nẵng</b>, với mục tiêu cải thiện
@@ -77,45 +77,74 @@ const AboutSection = () => {
             className='grid md:grid-cols-3 gap-8'
           >
             {/* Tầm nhìn */}
-            <div className='bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/20 transition-all duration-300'>
-              <div className='w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6'>
+            <motion.div
+              whileHover={{ scale: 1.02, y: -5 }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              className='bg-white/20 backdrop-blur-md rounded-2xl p-8 text-center hover:bg-white/25 transition-all duration-300 border border-white/20 shadow-lg hover:shadow-xl'
+            >
+              <div className='w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg'>
                 <Eye className='w-10 h-10 text-white' />
               </div>
-              <h3 className='text-2xl font-bold mb-4'>Tầm nhìn</h3>
-              <p className='text-sm leading-relaxed text-white/90'>
+              <h3 className='text-2xl font-bold mb-4 text-white'>Tầm nhìn</h3>
+              <p className='text-base leading-relaxed text-white'>
                 Trở thành dự án hàng đầu về phát triển bền vững tại Việt Nam,
                 mang ánh sáng và hy vọng đến mọi ngóc ngách của đất nước, góp
                 phần xây dựng một cộng đồng văn minh và thịnh vượng.
               </p>
-            </div>
+            </motion.div>
 
             {/* Sứ mệnh */}
-            <div className='bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/20 transition-all duration-300'>
-              <div className='w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6'>
+            <motion.div
+              whileHover={{ scale: 1.02, y: -5 }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              className='bg-white/20 backdrop-blur-md rounded-2xl p-8 text-center hover:bg-white/25 transition-all duration-300 border border-white/20 shadow-lg hover:shadow-xl'
+            >
+              <div className='w-20 h-20 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg'>
                 <Sun className='w-10 h-10 text-white' />
               </div>
-              <h3 className='text-2xl font-bold mb-4'>Sứ mệnh</h3>
-              <p className='text-sm leading-relaxed text-white/90'>
+              <h3 className='text-2xl font-bold mb-4 text-white'>Sứ mệnh</h3>
+              <p className='text-base leading-relaxed text-white'>
                 Cải thiện chất lượng cuộc sống cho người dân vùng khó khăn thông
                 qua việc cung cấp năng lượng sạch, bền vững. Kết nối cộng đồng
                 và lan tỏa tinh thần tương thân tương ái trong xã hội.
               </p>
-            </div>
+            </motion.div>
 
             {/* Giá trị cốt lõi */}
-            <div className='bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/20 transition-all duration-300'>
-              <div className='w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6'>
+            <motion.div
+              whileHover={{ scale: 1.02, y: -5 }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              className='bg-white/20 backdrop-blur-md rounded-2xl p-8 text-center hover:bg-white/25 transition-all duration-300 border border-white/20 shadow-lg hover:shadow-xl'
+            >
+              <div className='w-20 h-20 bg-gradient-to-br from-red-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg'>
                 <Heart className='w-10 h-10 text-white' />
               </div>
-              <h3 className='text-2xl font-bold mb-4'>Giá trị cốt lõi</h3>
-              <div className='text-sm leading-relaxed text-white/90 space-y-2'>
-                <p>🌱 Phát triển bền vững</p>
-                <p>🤝 Kết nối cộng đồng</p>
-                <p>💡 Sáng tạo và đổi mới</p>
-                <p>❤️ Tình nguyện và chia sẻ</p>
-                <p>🌟 Trách nhiệm xã hội</p>
+              <h3 className='text-2xl font-bold mb-4 text-white'>
+                Giá trị cốt lõi
+              </h3>
+              <div className='text-base leading-relaxed text-white space-y-3'>
+                <div className='flex items-center justify-center gap-3'>
+                  <span className='text-xl'>🌱</span>
+                  <span>Phát triển bền vững</span>
+                </div>
+                <div className='flex items-center justify-center gap-3'>
+                  <span className='text-xl'>🤝</span>
+                  <span>Kết nối cộng đồng</span>
+                </div>
+                <div className='flex items-center justify-center gap-3'>
+                  <span className='text-xl'>💡</span>
+                  <span>Sáng tạo và đổi mới</span>
+                </div>
+                <div className='flex items-center justify-center gap-3'>
+                  <span className='text-xl'>❤️</span>
+                  <span>Tình nguyện và chia sẻ</span>
+                </div>
+                <div className='flex items-center justify-center gap-3'>
+                  <span className='text-xl'>🌟</span>
+                  <span>Trách nhiệm xã hội</span>
+                </div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         </motion.div>
       </div>

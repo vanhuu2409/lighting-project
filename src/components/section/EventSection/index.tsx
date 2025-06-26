@@ -15,7 +15,7 @@ const EventSection = () => {
           variants={fadeInUp}
           className='mb-12'
         >
-          <h2 className='text-5xl md:text-7xl font-bold mb-4 uppercase'>
+          <h2 className='text-5xl md:text-7xl font-bold mb-4 uppercase !leading-tight'>
             Sự kiện & hoạt động
           </h2>
           <p className='leading-snug tracking-tight text-base md:text-lg text-justify text-neutral-900'>

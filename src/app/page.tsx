@@ -239,7 +239,7 @@ export default function HomePage() {
             <div className='hidden md:flex space-x-8 items-center'>
               <button
                 onClick={() => handleNavClick("about")}
-                className='min-w-[98px] h-5'
+                className='min-w-[102px]'
               >
                 <HoverText
                   text='Về chúng tôi'
@@ -253,7 +253,7 @@ export default function HomePage() {
               </button>
               <button
                 onClick={() => handleNavClick("events")}
-                className='min-w-[154px] h-5'
+                className='min-w-[158px]'
               >
                 <HoverText
                   text='Sự kiện & hoạt động'
@@ -267,7 +267,7 @@ export default function HomePage() {
               </button>
               <button
                 onClick={() => handleNavClick("tickets")}
-                className='min-w-[58px] h-5'
+                className='min-w-[62px]'
               >
                 <HoverText
                   text='Mua vé'
@@ -281,7 +281,7 @@ export default function HomePage() {
               </button>
               <button
                 onClick={() => handleNavClick("cta")}
-                className='min-w-[92px] h-5'
+                className='min-w-[96px]'
               >
                 <HoverText
                   text='Tuyển dụng'
@@ -295,7 +295,7 @@ export default function HomePage() {
               </button>
               <button
                 onClick={() => handleNavClick("footer")}
-                className='min-w-[58px] h-5'
+                className='min-w-[62px]'
               >
                 <HoverText
                   text='Liên hệ'
@@ -471,7 +471,7 @@ export default function HomePage() {
                   href='mailto:duanthapsang@gmail.com'
                   className='flex items-center space-x-3 group'
                 >
-                  <div className='text-mainColor group-hover:text-mainColor transition-colors duration-200 flex items-center justify-center w-5 h-5'>
+                  <div className='text-text-gray-700 group-hover:text-mainColor transition-colors duration-300 flex items-center justify-center w-5 h-5'>
                     <IconMail />
                   </div>
                   <HoverText
@@ -484,7 +484,7 @@ export default function HomePage() {
                   href='tel:0972261739'
                   className='flex items-center space-x-3 group'
                 >
-                  <div className='text-mainColor group-hover:text-mainColor transition-colors duration-200 flex items-center justify-center w-5 h-5'>
+                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-300 flex items-center justify-center w-5 h-5'>
                     <IconPhone />
                   </div>
                   <HoverText
@@ -510,7 +510,7 @@ export default function HomePage() {
                   rel='noopener noreferrer'
                   className='flex items-center space-x-3 group'
                 >
-                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-200'>
+                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-300'>
                     <IconFacebook />
                   </div>
                   <HoverText
@@ -520,7 +520,7 @@ export default function HomePage() {
                   />
                 </Link>
                 <Link href='#' className='flex items-center space-x-3 group'>
-                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-200'>
+                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-300'>
                     <IconInstagram />
                   </div>
                   <HoverText
@@ -530,7 +530,7 @@ export default function HomePage() {
                   />
                 </Link>
                 <Link href='#' className='flex items-center space-x-3 group'>
-                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-200'>
+                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-300'>
                     <IconYoutube />
                   </div>
                   <HoverText
@@ -540,7 +540,7 @@ export default function HomePage() {
                   />
                 </Link>
                 <Link href='#' className='flex items-center space-x-3 group'>
-                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-200'>
+                  <div className='text-gray-700 group-hover:text-mainColor transition-colors duration-300'>
                     <IconLinkedin />
                   </div>
                   <HoverText
