@@ -190,8 +190,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='vi' className='scroll-smooth'>
-      <head>
-        {/* Primary Meta Tags */}
+      {/* <head>
         <meta
           name='title'
           content='Thắp Sáng - JCI Danang | Mang Ánh Sáng Đến Vùng Cao'
@@ -209,7 +208,6 @@ export default function RootLayout({
         <meta name='language' content='Vietnamese' />
         <meta name='revisit-after' content='7 days' />
 
-        {/* Open Graph / Facebook */}
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://thapsang.site/' />
         <meta
@@ -239,7 +237,6 @@ export default function RootLayout({
         <meta property='og:locale' content='vi_VN' />
         <meta property='og:locale:alternate' content='en_US' />
 
-        {/* Facebook Specific */}
         <meta property='fb:app_id' content='your-facebook-app-id' />
         <meta property='fb:admins' content='your-facebook-admin-id' />
         <meta property='fb:page_id' content='your-facebook-page-id' />
@@ -258,7 +255,6 @@ export default function RootLayout({
         <meta property='article:tag' content='Điện mặt trời' />
         <meta property='article:tag' content='Vùng cao' />
 
-        {/* Twitter */}
         <meta property='twitter:card' content='summary_large_image' />
         <meta property='twitter:url' content='https://thapsang.site/' />
         <meta
@@ -280,7 +276,6 @@ export default function RootLayout({
         <meta property='twitter:site' content='@thapsang_jci' />
         <meta property='twitter:creator' content='@thapsang_jci' />
 
-        {/* LinkedIn */}
         <meta property='linkedin:owner' content='your-linkedin-company-id' />
         <meta
           name='linkedin:title'
@@ -296,7 +291,6 @@ export default function RootLayout({
         />
         <meta name='linkedin:author' content='JCI Danang' />
 
-        {/* Zalo */}
         <meta property='zalo:app_id' content='your-zalo-app-id' />
         <meta property='zalo:type' content='website' />
         <meta
@@ -313,7 +307,6 @@ export default function RootLayout({
         />
         <meta property='zalo:url' content='https://thapsang.site' />
 
-        {/* WhatsApp */}
         <meta name='whatsapp-title' content='Thắp Sáng - JCI Danang' />
         <meta
           name='whatsapp-description'
@@ -325,7 +318,6 @@ export default function RootLayout({
         />
         <meta name='whatsapp-url' content='https://thapsang.site' />
 
-        {/* Discord */}
         <meta name='discord-title' content='Thắp Sáng - JCI Danang' />
         <meta
           name='discord-description'
@@ -338,7 +330,6 @@ export default function RootLayout({
         <meta name='discord-color' content='#FDC619' />
         <meta name='theme-color' content='#FDC619' />
 
-        {/* Slack */}
         <meta name='slack-app-id' content='your-slack-app-id' />
         <meta name='slack:card' content='summary_large_image' />
         <meta
@@ -354,7 +345,6 @@ export default function RootLayout({
           content='https://thapsang.site/images/banner.png'
         />
 
-        {/* Instagram */}
         <meta name='instagram:title' content='Thắp Sáng - JCI Danang' />
         <meta
           name='instagram:description'
@@ -373,7 +363,6 @@ export default function RootLayout({
           content='Thắp Sáng - JCI Danang | Mang ánh sáng đến vùng cao 🌟 #ThapSang #TuThien'
         />
 
-        {/* Telegram */}
         <meta name='telegram:channel' content='@thapsang_jci' />
         <meta name='telegram:username' content='@thapsang_jci' />
         <meta name='telegram:title' content='Thắp Sáng - JCI Danang' />
@@ -386,7 +375,6 @@ export default function RootLayout({
           content='https://thapsang.site/images/banner.png'
         />
 
-        {/* Pinterest */}
         <meta name='pinterest:title' content='Thắp Sáng - JCI Danang' />
         <meta
           name='pinterest:description'
@@ -397,7 +385,6 @@ export default function RootLayout({
           content='https://thapsang.site/images/banner.png'
         />
 
-        {/* Mobile App Links */}
         <meta property='al:android:app_name' content='Thắp Sáng' />
         <meta property='al:android:package' content='com.thapsang.app' />
         <meta property='al:android:url' content='thapsang://' />
@@ -405,7 +392,6 @@ export default function RootLayout({
         <meta property='al:ios:url' content='thapsang://' />
         <meta property='al:web:url' content='https://thapsang.site' />
 
-        {/* Structured Data for Charity Organization */}
         <script
           type='application/ld+json'
           dangerouslySetInnerHTML={{
@@ -505,7 +491,6 @@ export default function RootLayout({
           }}
         />
 
-        {/* Additional SEO Meta Tags */}
         <meta name='color-scheme' content='light' />
         <meta name='mobile-web-app-capable' content='yes' />
         <meta name='apple-mobile-web-app-capable' content='yes' />
@@ -518,7 +503,6 @@ export default function RootLayout({
         <meta name='msapplication-TileColor' content='#FDC619' />
         <meta name='msapplication-TileImage' content='/images/logo.png' />
 
-        {/* Preconnect to external domains for performance */}
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link
           rel='preconnect'
@@ -533,17 +517,15 @@ export default function RootLayout({
         <link rel='preconnect' href='https://api.whatsapp.com' />
         <link rel='preconnect' href='https://t.me' />
 
-        {/* Canonical and alternate URLs */}
         <link rel='canonical' href='https://thapsang.site/' />
         <link rel='alternate' hrefLang='vi' href='https://thapsang.site/' />
         <link rel='alternate' hrefLang='en' href='https://thapsang.site/en/' />
 
-        {/* Favicon and app icons */}
         <link rel='icon' href='/favicon.ico' sizes='any' />
         <link rel='icon' href='/icon.svg' type='image/svg+xml' />
         <link rel='apple-touch-icon' href='/apple-touch-icon.png' />
         <link rel='manifest' href='/site.webmanifest' />
-      </head>
+      </head> */}
       <body className='antialiased'>{children}</body>
     </html>
   );
